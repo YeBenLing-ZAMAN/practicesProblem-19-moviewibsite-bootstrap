@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,40 +9,94 @@
     <link rel="stylesheet" href="./bootstraps/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+
     <header class="container-fluid ">
-        
+
         <!-- navber -->
         <nav class="navbar navbar-expand-lg py-0 navbar-drak bg-light">
             <div class="container navbar-bg-color">
-              <a class="navbar-brand" href="#">
-                  <img src="./image/icons/box.png" class="img-fluid" width="50" alt=""><span class="ps-3 fw-bolder text-danger"> MovieBD </span></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2 rounded-pill" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-danger rounded-pill" type="submit">Search</button>
-                </form>
+                <a class="navbar-brand" href="#">
+                    <img src="./image/icons/box.png" class="img-fluid" width="50" alt=""><span
+                        class="ps-3 fw-bolder text-danger"> MovieBD </span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 rounded-pill" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-danger rounded-pill" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- header carsoul section  -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner border border-danger">
+              <div class="carousel-item active">
+                <div id="bg-image-02" class="container-fluid carousel-self-made d-flex align-items-end justify-content-center">
+                    <div class="w-50 pb-5">
+                        <h1 class="text-light">UpComing  Iron-man </h1>
+                        <p class="text-light d-md-block d-sm-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, dolores? Molestiae eos ratione doloremque voluptatum recusandae exercitationem nesciunt ipsam quidem.</p>
+                        <button class="btn btn-outline-danger btn-lg">Booking Now</button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div id="bg-image-01" class="container-fluid carousel-self-made d-flex align-items-end justify-content-center">
+                    <div class="w-50 pb-5">
+                        <h1 class="text-dark">UpComing dr. strange 3</h1>
+                        <p class="text-dark d-md-block d-sm-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, dolores? Molestiae eos ratione doloremque voluptatum recusandae exercitationem nesciunt ipsam quidem.</p>
+                        <button class="btn btn-danger btn-lg">Booking Now</button>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div id="bg-image-03" class="container-fluid carousel-self-made d-flex align-items-end justify-content-center">
+                    <div class="w-50 pb-5">
+                        <h1 class="text-light">UpComing love and thander 3</h1>
+                        <p class="text-light d-md-block d-sm-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, dolores? Molestiae eos ratione doloremque voluptatum recusandae exercitationem nesciunt ipsam quidem.</p>
+                        <button class="btn btn-outline-danger btn-lg">Booking Now</button>
+                    </div>
+                </div>
               </div>
             </div>
-          </nav>
-
-          
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
     </header>
-   
+
+
+    
+
 
 
     <script src="./bootstraps/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

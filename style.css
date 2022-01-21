@@ -3,3 +3,32 @@
 .navbar-bg-color{
     background-color:aqua;
 }
+.carousel-height-byme{
+    width: 100vw;
+    height: 60vh;
+}
+.imgage-height-byme{
+    width: 240vw;
+    height:100vh;
+}
+
+.carousel-self-made{
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+}
+#bg-image-01{
+    background-image: url(./image/super-hero/dr.strange.jpg);
+    background-size: 100vw 80vh;
+    background-position: cover fill;
+}
+#bg-image-02{
+    background-image: url(./image/super-hero/iron-man.jpg);
+    background-size: 100vw 80vh;
+    background-position: cover fill
+}
+#bg-image-03{
+    background-image: url(./image/movieposter/thor2012.jpg);
+    background-size: 100vw 90vh;
+    background-position: cover fill
+}
